@@ -6,7 +6,7 @@ Este é um projeto de estudo para por em prática conhecimentos apurados no BOOT
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![Excel](https://img.shields.io/badge/Excel-2016+-blue)
 ![Foco](https://img.shields.io/badge/Foco-Consolidação_Imposto_de_Renda-orange)
-![Perfil](https://img.shields.io/badge/Nível-Básico/Pleno-darkgreen)
+![Perfil](https://img.shields.io/badge/Nível-Junior/Pleno-darkgreen)
 
 ---
 
@@ -171,6 +171,24 @@ Utilizada para:
 *   Transportar dados consolidados
 *   Modularizar cálculos
 *   Garantir organização estrutural
+
+</p>
+- <b>Power Pivot e DAX</b>
+</p>
+
+Linguagem Dax do Power Pivot e Power BI
+    
+    Calculo da coluna Bimestre na tabela dinâmica
+    ```="B" & INT( (MONTH( [DATA] ) -1 ) /2 )+1```
+    
+    Calculo da coluna Trimestre na tabela dinâmica
+    ```="T" & INT( (MONTH( [DATA] ) -1 ) /3 )+1```
+
+Utilizada no Power Pivot ( Versão do Excel 2016) para:
+
+*   Criar ou tansformar dados
+*   Gerar cálculos mais complexos e especificos
+*   Programar ações mais complexas.
 
 </div>
 </p>
